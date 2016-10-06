@@ -30,6 +30,7 @@ namespace Bangazon
 
             // Depending on the value of the last argument, assign
             // the payment variable to the correct derived class
+            //SWITCH statment used next!
             switch (args[args.Length - 1])
             {
                 case "credit":

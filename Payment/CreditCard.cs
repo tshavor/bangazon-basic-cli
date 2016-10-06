@@ -8,6 +8,7 @@ namespace Bangazon.Payments
     public string bankName { get; set; }
     public string accountNumber { get; set; }
 
+    // :base is calling the base ORDER class.  Confusing stuff... 
     public CreditCard(Order order): base(order)
     {
 
